@@ -57,7 +57,6 @@ def is_non_negative_integer(error_quantity):
     """
     try:
         error_integer = int(error_quantity)
-        #error_integer
         if error_integer >= 0:
             return error_integer
         else:
